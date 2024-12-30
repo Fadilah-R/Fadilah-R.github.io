@@ -6,15 +6,15 @@
 }
 @media (max-width: 767px) {
     h1{
-        font-size: 20px !important;
+        font-size: 40px !important;
     }
 
     h2{
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
 
     h3{
-        font-size: 16px !important;
+        font-size: 24px !important;
     }
 
     h4{
@@ -26,11 +26,11 @@
     }
 
     p{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 
     li{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 
     button{
@@ -78,6 +78,10 @@
         justify-content: center !important;
     }.margin{
         margin-top: 13px;
+    }
+    .list{
+        margin-left:-20px !important;
+        line-height: 1.7rem;
     }
 }
 
@@ -201,9 +205,6 @@
 
 .navbar .active{
     color: #127369 !important;
-}
-
-.section{
 }
 
 .section-1 {
@@ -600,9 +601,9 @@ footer{
 
 .card-paket{
     background-color: white;
-    width: 250px;
-    height: 550px;
-    margin: 10px;
+    width: 265px;
+    height: 500px;
+    margin: 15px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -616,7 +617,7 @@ footer{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .jarak-jdl-pkt{
-    margin-top: -70px;
+    margin-top: -20px;
 }
 .jarak-custom-pkt{
     margin-top:-95px;
@@ -624,21 +625,36 @@ footer{
 .margin-20{
     margin-top: 20px !important;
 }
+.client{
+    text-align: center;
+    font-weight: 600;
+    color: #39bcad !important;
+}
     @media (max-width: 768px){
         .section-transparansi{
             margin-top: 70px;
         } 
         .card-paket{
-            width: 300px;
-            height: 450px;
+            width: 335px;
+            height: 500px;
         }
         .jarak-jdl-pkt{
-            margin-top: -45px;
+            margin-top: -20px;
         }
         .margin-20{
             margin-top: 10px !important;
         }
+        .client{
+            text-align: center;
+            font-weight: 600;
+            color: #39bcad !important;
+        }
     }
+.text-paket h1{
+    text-align: center;
+    font-weight: 800;
+    color: #000000;
+}
 .text-paket h2{
     text-align: center;
     font-weight: 800;
